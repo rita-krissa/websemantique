@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact – Lucas Jardins</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="a-propos.html">À Propos</a></li>
+                <li><a href="services.html">Nos Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact</h1>
+        <section class="contact-info">
+            <h2>Comment nous trouver?</h2>
+            <p><strong>Adresse :</strong> 102 Chemin du Génie, 06000 Nice</p>
+            <p><strong>Téléphone :</strong> 07 88 76 05 71</p>
+            <p><strong>Email :</strong> contact@lucasjardins.com</p>
+            <p><strong>Horaires :</strong> Du lundi au vendredi, de 8h00 à 18h00</p>
+        </section>
+        <section class="contact-form">
+            <h2>Écrivez-nous</h2>
+            <form action="envoyer.php" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Lucas Jardins © 2025. Réalisation Agence AMS.</p>
+    </footer>
+</body>
+</html>
