@@ -1,0 +1,49 @@
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Plantations",
+    "description": "Service professionnel de conseils et d'expertise quant au choix de plantations",
+    "provider": {
+        "@type": "Gardener",
+        "name": "Lucas Jardin",
+        "url": "https://lucasjardin.fr",
+        "logo": {
+            "@type": "ImageObjet",
+            "url": "https://www.lucasjardins.fr/Images/Logo_Lucas_Jardins.png",
+            "width": 12, //Largeur du logo en vw
+            "height": 10 //Hauteur du logo en vw
+        },
+        "adress": {
+            "@type": "PostalAddress",
+            "streetAddress": "102 Chemin du Génie",
+            "postalCode": "06000",
+            "adressLocality": "Nice",
+            "adressRegion": "Provence-Alpes-Côte d'Azur",
+            "adressCountry": "FR"
+        },
+        "telephone": "+33-7-88-76-05-71",  // Numéro de téléphone de l'entreprise
+        "email": "contact@lucasjardin.com"  // Adresse e-mail de contact
+    },
+
+    "url": "https://lucasjardin.fr/recherche-fuite-eau.html",
+    "image": "https://entreprise-plomberie-bob-nice.fr/images/recherche-fuite.webp",
+    "review": { 
+            "@type": "Review",
+            "author": { 
+                "@type": "Person",
+                "name": "Lucie Potin"
+            },
+            "reviewRating": { 
+            "@type": "Rating",
+            "ratingValue": "5", 
+            "bestRating": "5"
+            },
+            "reviewBody": "Service rapide et professionnel, mon jardin resplendis grâce à leur travail. Je recommande !" 
+        },
+    "sameAs": [ 
+        "https://www.facebook.com/people/Lucas-Jardins/100089258752223/",
+        "https://www.instagram.com/lucasjardins06/"
+        ]
+}
+</script>
