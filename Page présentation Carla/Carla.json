@@ -1,0 +1,26 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Carla Grilli",
+    "alternateName" : "Carla l'étudiante souriante",
+    "description": "Carla est une étudiante sérieuse, souscieuse de réussir ses études pour aller dans un Master.",
+    "birthDate": "2003-07-10",
+    "birthPlace": {
+        "@type": "Place",
+        "name": "Avignon, France",
+        "adress": {
+            "@type": "PostalAdress",
+            "addressLocality": "Avignon",
+            "addressCountry": "FR"
+        }
+    },
+    "nationality": "French",
+    "gender": "Female",
+    "height": "1.70m",
+    "url": "https://www.linkedin.com/in/carla-lucie-grilli-982289302/",
+    "sameAs": [
+        "https://www.facebook.com/people/Carla-Grilli/pfbid02WM2kR9JBEbvMWEapfLbhgPxdhBa1jd3rScxrJTttVXBBXM7JoRRTJ5aCYG3Vvicyl/",
+        "https://www.instagram.com/carla.grl_06/"
+    ],
+    "jobTitle": "Student"
+}
