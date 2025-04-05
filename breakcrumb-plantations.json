@@ -1,0 +1,62 @@
+<script type="application/1d+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "logo",
+                "item": "https://lucasjardins.fr"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Accueil",
+                "item": "https://lucasjardins.fr"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "A Propos",
+                "item": "https://lucasjardins.fr"
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Nos Services",
+                "item": "https://lucasjardins.fr"
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "name": "Contact",
+                "item": "https://lucasjardins.fr"
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "name": "Plantations",
+                "item": "https://lucasjardins.fr"
+            },
+            {
+                "@type": "ListItem",
+                "position": 7,
+                "name": "Autres service",
+                "item": "https://lucasjardins.fr"
+            },
+            {
+                "@type": "ListItem",
+                "position": 8,
+                "name": "Nous contacter",
+                "item": "https://lucasjardins.fr"
+            },
+            {
+                "@type": "ListItem",
+                "position": 9,
+                "name": "Formulaire de contact",
+                "item": "https://lucasjardins.fr"
+            },
+        ]
+    }
+</script>
