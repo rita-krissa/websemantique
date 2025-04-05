@@ -1,0 +1,205 @@
+/* Importation de la police Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333; /* Couleur du texte principal */
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Couleur d'arrière-plan générale */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    /*background-color: #f9f9f9;  Couleur du fond du menu en noir */
+}
+
+.logo {
+    color: #A8AA49;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav ul li {
+    position: relative;
+}
+
+.nav ul li a {
+    color: #000; /* Couleur des liens de navigation en blanc */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+    color: #000; /* Couleur des liens de navigation au survol */
+}
+
+.nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.nav ul li a:hover::after {
+    transform: scaleX(1);
+}
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centre l'image horizontalement */
+    text-align: left; /* Aligne le texte à gauche */
+    padding: 40px;
+    background-color: #f9f9f9; /* Couleur d'arrière-plan de la bannière */
+}
+
+.banner-image {
+    display: flex;
+    justify-content: center; /* Centre l'image */
+    width: 50%; /* Ajuste la largeur si nécessaire */
+}
+
+.banner-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.banner-text {
+    flex: 1;
+    margin-right: 20px; /* Espace entre le texte et l'image */
+}
+
+
+
+.banner-text p, .banner-text h2 {
+    margin-bottom: 10px; /* Ajoute de l'espace entre les éléments */
+}
+
+
+
+.exhibition {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.exhibition h3 {
+    font-size: 22px;
+    color: #333; /* Couleur du titre de la section d'exposition */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.exhibition p {
+    font-size: 16px;
+    color: #555; /* Couleur du texte de la section d'exposition */
+    margin-bottom: 20px;
+}
+
+.exhibition-image .placeholder {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #666;
+}
+
+.newsletter {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 24px;
+    color: #333; /* Couleur du titre de la section newsletter */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.newsletter p {
+    font-size: 16px;
+    color: #666; /* Couleur du texte de la section newsletter */
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #000; /* Couleur du bouton de la newsletter en noir */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.footer p {
+    margin: 5px 0;
+    color: #aaa; /* Couleur du texte du pied de page */
+}
+
+/* Responsivité */
+@media (min-width: 768px) {
+    .banner {
+        flex-direction: row-reverse; /* Change la direction des éléments pour que l'image soit à droite */
+        text-align: left;
+    }
+
+    .banner-text {
+        padding: 0 20px;
+    }
+
+    .nav ul {
+        justify-content: flex-end;
+    }
+}
+
